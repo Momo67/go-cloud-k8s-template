@@ -3,6 +3,7 @@ module github.com/lao-tseu-is-alive/go-cloud-k8s-user-group
 go 1.18
 
 require (
+	github.com/cristalhq/jwt/v4 v4.0.2
 	github.com/deepmap/oapi-codegen v1.11.0
 	github.com/georgysavva/scany v1.0.0
 	github.com/jackc/pgx/v4 v4.16.1
@@ -12,7 +13,6 @@ require (
 )
 
 require (
-	github.com/cristalhq/jwt/v4 v4.0.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/google/uuid v1.3.0 // indirect
