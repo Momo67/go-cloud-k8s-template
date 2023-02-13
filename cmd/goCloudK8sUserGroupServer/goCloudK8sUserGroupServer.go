@@ -3,13 +3,14 @@ package main
 import (
 	"embed"
 	"fmt"
-	"github.com/lao-tseu-is-alive/go-cloud-k8s-user-group/pkg/config"
-	"github.com/lao-tseu-is-alive/go-cloud-k8s-user-group/pkg/goserver"
-	"github.com/lao-tseu-is-alive/go-cloud-k8s-user-group/pkg/tools"
-	"github.com/lao-tseu-is-alive/go-cloud-k8s-user-group/pkg/users"
-	"github.com/lao-tseu-is-alive/go-cloud-k8s-user-group/pkg/version"
 	"log"
 	"os"
+
+	"github.com/momo67/go-cloud-k8s-template/pkg/config"
+	"github.com/momo67/go-cloud-k8s-template/pkg/goserver"
+	"github.com/momo67/go-cloud-k8s-template/pkg/tools"
+	"github.com/momo67/go-cloud-k8s-template/pkg/users"
+	"github.com/momo67/go-cloud-k8s-template/pkg/version"
 )
 
 const (

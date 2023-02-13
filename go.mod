@@ -1,4 +1,4 @@
-module github.com/lao-tseu-is-alive/go-cloud-k8s-user-group
+module github.com/momo67/go-cloud-k8s-template
 
 go 1.18
 
@@ -8,6 +8,7 @@ require (
 	github.com/georgysavva/scany v1.0.0
 	github.com/jackc/pgx/v4 v4.16.1
 	github.com/labstack/echo/v4 v4.7.2
+	github.com/lao-tseu-is-alive/go-cloud-k8s-user-group v0.0.0-20230117130700-e0a29df58550
 	github.com/stretchr/testify v1.7.1
 	golang.org/x/crypto v0.0.0-20220829220503-c86fa9a7ed90
 )
@@ -25,13 +26,10 @@ require (
 	github.com/jackc/pgtype v1.11.0 // indirect
 	github.com/jackc/puddle v1.2.1 // indirect
 	github.com/labstack/gommon v0.3.1 // indirect
-	github.com/lib/pq v1.10.6 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/rogpeppe/go-internal v1.8.1 // indirect
-	github.com/shopspring/decimal v1.3.1 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.1 // indirect
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect

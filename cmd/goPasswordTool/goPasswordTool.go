@@ -3,9 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/lao-tseu-is-alive/go-cloud-k8s-user-group/pkg/crypto"
 	"io"
 	"os"
+
+	"github.com/momo67/go-cloud-k8s-template/pkg/crypto"
 )
 
 const (

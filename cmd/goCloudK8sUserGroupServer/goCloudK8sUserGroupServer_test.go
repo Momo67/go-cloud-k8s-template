@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/lao-tseu-is-alive/go-cloud-k8s-user-group/pkg/gohttpclient"
-	"github.com/stretchr/testify/assert"
 	"io"
 	"net/http"
 	"os"
@@ -11,6 +9,9 @@ import (
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/momo67/go-cloud-k8s-template/pkg/gohttpclient"
+	"github.com/stretchr/testify/assert"
 )
 
 type testScenario struct {
